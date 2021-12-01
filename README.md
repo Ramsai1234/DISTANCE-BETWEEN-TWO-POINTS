@@ -4,15 +4,15 @@
 To write a python program to find the distance two 2 points
 ## ALGORITHM:
 ### Step 1:
-Import numpy as package.
-### Step 2: 
-By using distance formula.
+import numpy as np 
+### Step 2:
+by using distance formula  
 ### Step 3: 
-Substitute the values in the distance formula  ![formula](/formula.jpg)
+Substitute the values in the distance formula  ![formula](/IMAGES/img1.png)
 ### Step 4: 
-Print the Result.
+display the output.
 ### Step 5: 
-End the program.
+end the program.
 ### PROGRAM:
 ```
 #Program to find the distance between two points.
@@ -24,14 +24,11 @@ p2=[4,2]
 distance=np.sqrt(((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2))
 print("{:.2f}".format(distance))
 ```
-  
 
 
 ### OUTPUT:
-```
-![github logo](
-
+![OUTPUT](/IMAGES/img2.png)
 
 
 ### RESULT:
-The given program was excuted successfully.
+Thus the program to calculate distance between two points is calculated sucessfully.
